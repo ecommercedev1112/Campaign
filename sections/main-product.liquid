@@ -600,7 +600,7 @@
                           {% endif %}
 
                           <div
-                            class="selector-wrapper {% if show_swatches %} cc-swatches option--{{ option_name_lowercase | handle }} {% if settings.swatch_use_prod_images == true %}cc-swatches-prod-img{% endif %}{% endif %}"
+                            class="a selector-wrapper {% if show_swatches %} cc-swatches option--{{ option_name_lowercase | handle }} {% if settings.swatch_use_prod_images == true %}cc-swatches-prod-img{% endif %}{% endif %}"
                             data-option-name="{{ option.name }}"
                           >
                             {% capture size_chart_html %}
@@ -680,7 +680,7 @@
                           {% endif %}
 
                           <div
-                            class="selector-wrapper {% if show_swatches %}cc-swatches option--{{ option_name_lowercase | handle }}{% else %}single-option{% endif %} {% if settings.swatch_use_prod_images == true %}cc-swatches-prod-img{% endif %}"
+                            class="b selector-wrapper {% if show_swatches %}cc-swatches option--{{ option_name_lowercase | handle }}{% else %}single-option{% endif %} {% if settings.swatch_use_prod_images == true %}cc-swatches-prod-img{% endif %}"
                             data-option-name="{{ option }}"
                           >
                             {%- if option != 'Title' -%}
